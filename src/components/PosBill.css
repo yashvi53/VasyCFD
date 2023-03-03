@@ -1,0 +1,368 @@
+body{
+    overflow: hidden;
+   
+}
+.bill-right-side{
+    height: 100vh;
+
+}
+.bill-header{
+ 
+   background-color: #002847;
+  
+  
+}
+.profile-header {
+    margin-right: 20px;
+  }
+.connection-container{
+
+    background: #cfd3d5;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.connection-header{
+    margin-top: 9%;
+}
+.connection-content{
+  margin-top: 4%;
+}
+.connection-content h3{
+    font-weight: 600;
+}
+
+
+.profile-header span{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.profile-icon{
+    width: 30px;
+    margin-top: 0%;
+
+}
+.bill-left-side{
+    position:sticky;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+.items-id{
+    background-color: #ECECEC;
+    padding: 5px 10px;
+    border-radius: 5px
+   
+}
+.bill-footer .amount-bill p{
+    margin-top: 12px;
+    color: #606161;
+}
+.amount-bill p span{
+    color: black;
+    font-weight: 600;
+}
+.bill-footer{
+  position: absolute;
+  width: 98.4%!important;
+  max-width: 100%;
+  bottom: 56px!important;
+  
+}
+.bill-footer p{
+    font-size: 19px;
+    color: #606161;
+    font-weight: 500;
+}
+.bill-footer p span{
+    color: black;
+    font-weight: 600;
+}
+
+.qr-btn,.cash-btn,.card-btn,.Reedem-btn,.Paylater-btn,.clear-btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin-top: 90%;
+  }
+
+  
+.qr-btn button{
+    background: #343a40!important;
+    color: #fff !important;
+ 
+    outline: none;
+    border: #343a40!important;
+   
+
+    
+}
+
+
+.clear-btn button{
+    background: #343a40!important;
+    color: #fff !important;
+  
+    outline: none;
+    border: #343a40!important;
+    
+}
+.cash-btn button{
+    background: #343a40!important;
+    color: #fff !important;
+   
+    border: #343a40!important
+
+}
+.card-btn button{
+    background: #343a40!important;
+    color: #fff !important;
+   
+    outline: none;
+    border: #343a40!important;
+   
+
+}
+.Reedem-btn button{
+    background: #343a40!important;
+    color: #fff !important;
+    
+    outline: none;
+    border: #343a40!important;
+    
+}
+.Paylater-btn button{
+    background: #343a40!important;
+    color: #fff !important;
+    font-size: 500;
+    outline: none;
+    border: #343a40!important;
+   
+}
+.qr-btn button:hover{
+    background:#606161!important;
+}
+.total-input p{
+    font-size: 22px;
+    color: #31aff5;
+    font-weight: 800;
+    position: absolute;
+    right: 12%;
+   
+}
+.total-input p span{
+    color: #31aff5;
+    font-weight: 600;
+}
+.qr-card-img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 73%;
+    top: 30%;
+}
+.bill-right-side h6,.vasy-img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+   
+}
+.bill-right-side h6{
+    left: 80%;
+    top: 45%;
+}
+.vasy-img{
+    left: 78%;
+    top: 50%;
+}
+.discount-input{
+    width: 50px;
+   height: 25px;
+}
+.date-text{
+    color: black;
+    margin-top: 6px;
+}
+.total-input input{
+    width: 60px;
+    height: 25px;
+    border-radius:4px;
+}
+table tbody td{
+    font-size: 15px;
+    font-weight: 500;
+}
+table{
+    --bs-table-border-color: #aeb4b9!important;
+
+}
+
+table th{
+    position: sticky;
+    top: 0;
+    background-color: #ECECEC!important;
+}
+.bill-table{
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+
+.bill-footer{
+    background-color: #ECECEC;
+   
+}
+
+.footer-dotted-line{
+    border: none;
+    border-bottom: 2px dashed black;
+    
+}
+.connection-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.connection-div input{
+    border-radius: 7px;
+    outline: none;
+    border: none;
+   width: 25%;
+   padding: 8px 0px;
+}
+.connection-div button{
+    border-radius: 6px;
+   
+    font-size: 18px;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    background: black;
+    margin-top: 3%;
+}
+.add-products{
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-products input{
+    max-width: 100%;
+    padding: 5px 1px;
+    border: 2px solid #D3D3D3;
+    border-radius: 4px;
+    -webkit-transition: 1s; 
+  transition: 1s;
+
+  
+}
+.add-products input::placeholder{
+    font-size: 15px;
+    font-weight: 500;
+}
+.add-products input[type=text]:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+.add-products input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+  }
+.add-products button{
+    max-width: 100%;
+    outline: none;
+    border: none;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid #D3D3D3;
+    border-radius: 6px;
+}
+.add-products button:hover{
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+}
+.message-container{
+    width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.dropdown{
+    position: absolute!important;
+    margin-top: 50px;
+    margin-left: -100px;
+    border-radius: 2px;
+    height: 0px;
+    width: 200px;
+    transition-duration: 0.3s;
+    transition-delay: 0.4s;
+    z-index: 1;
+   
+}
+.dropdown-row{
+    box-shadow: 3px 3px 20px 1px #aaa;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+   padding: 10px 10px;
+}
+/* media quieries */
+
+@media only screen and (max-width: 1300px) {
+    .bill-table {
+        max-height: 420px;
+        
+        overflow-y: scroll;
+    } 
+    .bill-footer{
+        bottom: 4px;
+    }
+    .bill-footer p{
+        font-size: 16px;
+        color: #606161;
+        font-weight: 500;
+    }
+    .qr-card-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 70%;
+        top: 30%;
+    }
+    .profile-header span {
+font-size: 15px;
+    }
+}
+@media only screen and(max-width:1000px){
+    .bill-table{
+        max-height: 398px;
+    }
+    .bill-footer p{
+        font-size: 16px;
+        
+    }
+    .profile-header span {
+        font-size: 12px;
+    }
+    
+}
